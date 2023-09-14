@@ -16,6 +16,7 @@ export class AppComponent {
 
   ngOnInit() : void {
     this.productService.getProducts().subscribe((result: Product[]) => (this.products = result));
+    console.log(this.products);
   }
 
   updateProductList(products: Product[]){

@@ -4,4 +4,5 @@ export class Product{
     name = "";
     quantity?: number;
     price?: number;
+    image = "";
 }
